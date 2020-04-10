@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
+
+#main {
+  background-color: var(--main-bg-color);
+  font-family: 'Comic Neue', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+  color: var(--main-txt-color);
+}
+
+#quote-box {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  font-weight: 550;
+  font-size: 22px;
+  background: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 1px gray;
+}
+
+#text h1 {
+
+
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+#author h5 {
+
+  
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+#buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.twitter-icon {
+  color: var(--main-bg-color);
+  size: 50px;
+
+}
+
+.button {
+  background-color: var(--main-bg-color);
+  font-family: 'K2D', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 50em;
+  box-shadow: 0px 0px 3px .5px rgb(82, 81, 81);
+  border: 0;
+  margin-bottom: 10px;
+}
+#new-quote:focus, #tweet-quote:focus {
+  outline: none;
+}
+
+#new-quote:hover, #tweet-quote:hover {
+  background-color: #fff;
+  color: var(--main-txt-color);
+  border: 1px solid var(--main-txt-color);
+}
+
+
+@media only screen and (max-width: 450px) {
+  
+  #quote-box {
+    width: 50%;
+  }
+}
